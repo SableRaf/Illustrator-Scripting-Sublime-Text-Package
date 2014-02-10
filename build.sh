@@ -9,7 +9,7 @@ language="en_GB"
 base_path="Applications";
 
 # Full path
-full_path="/${base_path}/\"Adobe Illustrator ${version}\"/Presets/${language}/Scripts";
+full_path="/${base_path}/Adobe Illustrator ${version}/Presets.localized/${language}/Scripts";
 
 # Copying built file to script folder with some very crude error handling
 if cp $file_name "${full_path}/${file_name%.*}.jsx"; then 
