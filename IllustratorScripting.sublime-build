@@ -1,11 +1,11 @@
 {
   "cmd": [
-  "sh '${packages}/AfterEffects/build.sh' $file_name && osascript '${packages}/AfterEffects/run.scpt' $file_name"
+  "sh '${packages}/illustrator/build.sh' $file_name && osascript '${packages}/illustrator/run.scpt' $file_name"
   ],
   "shell": true,
   "windows": 
   {
-    "cmd": ["cd ${packages}\\AfterEffects\\ && build.bat $file_name $file_path"],
+    "cmd": ["cd ${packages}\\illustrator\\ && build.bat $file_name $file_path"],
     "encoding": "cp850"
   }
 }

@@ -3,7 +3,7 @@ on run arg
   set fileName to arg's item 1
   set aiVersion to "CC"
   set aiLanguage to "en_GB"
-  set basePath to "Applications"
+  set basePath to (path to applications folder as Unicode text)
   set theFile to POSIX path of (basePath & ":Adobe Illustrator " & aiVersion & ":Presets:" & aiLanguage & ":Scripts:" & fileName)
 
   open for access theFile
