@@ -3,7 +3,7 @@ Illustrator Scripting Sublime Text 2 Package
 
 **This is a work in progress. Please do not use for production.**
 
-Sublime Text 2 package for building extenscript (jsx) in Illustrator CC. Based on the [package for After Effects](https://github.com/seblavoie/After-Effects-Scripting-Sublime-Text-Package) by Seb Lavoie.
+Sublime Text 2 package for building extenscript (jsx) in Illustrator CC. Based on the [package for After Effects](https://github.com/seblavoie/After-Effects-Scripting-Sublime-Text-Package) by Seb Lavoie and the completion file from moluapple's [package for Illustrator and Indesign](https://github.com/moluapple/Sublime-Extendscript) (Windows only).
 
 ## Build System
 
