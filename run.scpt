@@ -1,15 +1,16 @@
 on run arg
 
   set fileName to arg's item 1
-  set aeVersion to "CS6"
+  set aiVersion to "CC"
+  set aiLanguage to "en_GB"
   set basePath to "Applications"
-  set theFile to POSIX path of (basePath & ":Adobe After Effects " & aeVersion & ":Scripts:" & fileName)
+  set theFile to POSIX path of (basePath & ":Adobe Illustrator " & aiVersion & ":Presets:" & aiLanguage & ":Scripts:" & fileName)
 
   open for access theFile
   set fileContents to (read theFile)
   close access theFile
 
-  tell application "Adobe After Effects CS6"
+  tell application "Adobe Illustrator CC"
     DoScript fileContents
     activate
   end tell
