@@ -4,7 +4,7 @@ on run arg
   set aiVersion to "CC"
   set aiLanguage to "en_GB"
   set basePath to (path to applications folder as Unicode text)
-  set theFile to POSIX path of (basePath & ":Adobe Illustrator " & aiVersion & ":Presets:" & aiLanguage & ":Scripts:" & fileName)
+  set theFile to POSIX path of (basePath & ":Adobe Illustrator " & aiVersion & ":Presets.localized:" & aiLanguage & ":Scripts:" & fileName)
 
   open for access theFile
   set fileContents to (read theFile)
