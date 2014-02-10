@@ -11,8 +11,7 @@ on run arg
   close access theFile
 
   tell application "Adobe Illustrator CC"
-    -- This triggers "script error: Expected end of line, etc. but found identifier. (-2741)"
-    DoScript fileContents
+    do javascript fileContents
     activate
   end tell
 
