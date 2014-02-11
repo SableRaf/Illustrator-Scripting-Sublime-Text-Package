@@ -3,13 +3,14 @@ Illustrator Scripting Sublime Text 2 Package
 
 **This is a work in progress. Use at your own risk.**
 
-Sublime Text 2 package for building extenscript (jsx) in Illustrator CC. Based on the [package for After Effects](https://github.com/seblavoie/After-Effects-Scripting-Sublime-Text-Package) by Seb Lavoie and the completion file from moluapple's [package for Illustrator and Indesign](https://github.com/moluapple/Sublime-Extendscript) (Windows only).
+Sublime Text 2 package for building extenscript (jsx) in Illustrator CC. Based on the [package for After Effects](https://github.com/seblavoie/After-Effects-Scripting-Sublime-Text-Package) by Seb Lavoie and the completion file from moluapple's [package for Illustrator and Indesign](https://github.com/moluapple/Sublime-Extendscript) (Windows only). It provides code completion in Sublime Text 2 and the ability to run the scripts in Illustrator via the build command.
 
 
 ## Limitations
 
 - The build & run scripts are hard coded for Illustrator CC en_GB version. Editing them for other installations should be trivial enough but there is no handy config file yet.
 - Windows script is completely untested
+- Be sure to save your script in UTF8 (withough BOM). Extenscript interprets [Byte order mark](https://en.wikipedia.org/wiki/Byte_order_mark) as a syntax error.
 
 
 ## Build System
@@ -46,9 +47,9 @@ The "Packages" directory is located at:
 
 ### From package manager
 
-- Get [Package Control for Sublime Text 2](https://sublime.wbond.net/)
-- In the command palette, start typing 'repository' and select 'Package Control: Add Repository'
-- Copy the clone url of the present repository in the prompt field
+- Get [Package Control for Sublime Text 2](https://sublime.wbond.net/).
+- In the command palette, start typing 'repository' and select 'Package Control: Add Repository'.
+- Copy the clone url of the present repository in the prompt field.
 
 
 ## Usage
