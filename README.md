@@ -11,6 +11,7 @@ Sublime Text 2 package for building extenscript (jsx) in Illustrator CC. Based o
 - The build & run scripts are hard coded for Illustrator CC en_GB version. Editing them for other installations should be trivial enough but there is no handy config file yet.
 - Windows script is completely untested
 - Be sure to save your script in UTF8 (withough BOM). Extenscript interprets [Byte order mark](https://en.wikipedia.org/wiki/Byte_order_mark) as a syntax error.
+- The console messages don't get caught in Sublime's own console
 
 
 ## Build System
